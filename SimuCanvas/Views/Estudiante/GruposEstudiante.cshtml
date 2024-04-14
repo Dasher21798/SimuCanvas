@@ -1,11 +1,33 @@
-﻿
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
-
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignaturas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="AsignaturaEstudiante.css">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <div class="container-fluid">
+        <div class="left-container">
+            <img src="ulacitlogo.png" class="img-fluid mb-5" alt="ULACIT LOGO">
+            <a href="pagina.html" class="btn btn-secondary btn-block">
+                <i class="fas fa-home"></i>
+                Home
+            </a>
+            <a href="Perfil.html" class="btn btn-secondary btn-block">
+                <i class="fa fa-user"></i>
+                Perfil de Usuario
+            </a>
+            <a href="CursosEstudiante.html" class="btn btn-secondary btn-block">
+                <i class="fas fa-book"></i>
+                Cursos
+            </a>
+            <button class="btn btn-dark btn-block" onclick="logout()">
+                <i class="fas fa-sign-out-alt"></i>
+                Sign Out
+            </button>
+        </div>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>GruposEstudiante</title>
